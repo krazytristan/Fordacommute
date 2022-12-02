@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 17, 2020 at 09:25 PM
+-- Generation Time: Nov 29, 2022 at 09:25 PM
 -- Server version: 10.1.39-MariaDB
 -- PHP Version: 7.3.5
 
@@ -46,8 +46,8 @@ CREATE TABLE `contact_details` (
 -- Dumping data for table `contact_details`
 --
 
-INSERT INTO `contact_details` (`id`, `email`, `mobile`, `address`, `google_map`, `facebook`, `google_plus`, `twitter`, `linkedin`, `youtube`, `instagram`) VALUES
-(1, 'youremailaddress@gmail.com', '1234567890', 'Noida, Uttar Pradesh, India', 'Enter You Google Map Code', '', '', '', '', '', '');
+INSERT INTO `contact_details` (`id`, `email`, `mobile`, `address`, `google_map`, `facebook`, `twitter`, `github`, `instagram`) VALUES
+(1, 'youremailaddress@gmail.com', '1234567890', 'Batangas City, Philippines', 'Enter Your Google Map Code', '', '', '', '');
 
 --
 -- Indexes for dumped tables

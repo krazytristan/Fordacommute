@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 17, 2020 at 09:24 PM
+-- Generation Time: Nov 29, 2022 at 09:25 PM
 -- Server version: 10.1.39-MariaDB
 -- PHP Version: 7.3.5
 
@@ -43,10 +43,10 @@ CREATE TABLE `admin_profile` (
 -- Dumping data for table `admin_profile`
 --
 
-INSERT INTO `admin_profile` (`id`, `full_name`, `email`, `mobile`, `address`, `password`, `status`, `created_at`) VALUES
-(10, 'Super Admin', 'superadmin@gmail.com', '1234567890', 'Noida', '0192023a7bbd73250516f069df18b500', 1, '2020-06-17 18:38:43.432266'),
-(11, 'Test admin', 'testadmin@gmail.com', '1234567890', 'New Delhi', '0192023a7bbd73250516f069df18b500', 1, '2020-06-17 18:39:14.874271'),
-(12, 'temp admin', 'tempadmin@gmail.com', '12', 'Noida', '0192023a7bbd73250516f069df18b500', 1, '2020-06-17 18:39:52.830541');
+IINSERT INTO `admin_profile` (`id`, `full_name`, `email`, `mobile`, `address`, `password`, `status`, `created_at`) VALUES
+(10, 'TRISTAN JORGE CUARTERO', 'trstnjorgen@gmail.com', '09511692537', 'Batangas City', 'fordacommute2022', 1, '2022-11-29 18:38:43.432266'),
+(11, 'MARC FRANCIS MARUNDAN', 'marcfrancismn@gmail.com', '09970671170', 'Batanags City', 'fordacommute2022', 1, '2022-11-29 18:39:14.874271'),
+(12, 'MARK ANGELE MALIGALIG', 'markangelom@gmail.com', '09384418426', 'Laguna', 'fordacommute2022', 1, '2022-11-29 18:39:52.830541');
 
 --
 -- Indexes for dumped tables

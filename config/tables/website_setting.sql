@@ -1,12 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 4.8.5
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: Jun 17, 2020 at 09:26 PM
--- Server version: 10.1.39-MariaDB
--- PHP Version: 7.3.5
-
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
 START TRANSACTION;
@@ -46,7 +37,7 @@ CREATE TABLE `website_setting` (
 --
 
 INSERT INTO `website_setting` (`id`, `website_title`, `website_name`, `visible_website_name`, `website_logo`, `website_favicon`, `meta_keyword`, `meta_description`, `google_varification_code`, `google_analytics_code`) VALUES
-(1, 'dd', 'dd', 0, 'codingstatus-logo.jpg', 'codingstatus-icon.jpg', 'dd', 'dd', 'dd', 'dd');
+(1, 'dd', 'dd', 0, 'titlelogo.png', 'fordacommute logo.png', 'dd', 'dd', 'dd', 'dd');
 
 --
 -- Indexes for dumped tables
