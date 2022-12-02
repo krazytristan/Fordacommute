@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>  <title>Admin Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <meta charset = "utf-8">
+        <style>
+            #demographic{
+                width: 40rem;
+                display: flex;
+                justify-content: space-between;
+            }
+            select{
+                width: 8rem;
+                padding: 12px 20px;
+                margin: 8px 0;
+                border: 1px solid rgb(155, 155, 155);
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+            .box2 p{
+                top:-5%;
+            }
+            #chart{
+                width: 30rem;
+                height: 30rem;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="box2">
+            <p>Demographics</p>
+            <form id="demographic">
+                <select title = "demo" name="demo" id="options1" onchange="window.location.href=this.value">
+                    <option value="demo.html" >Sex</option>
+                    <option value="demo2.html" selected>Age</option>
+                    <option value="demo3.html">Status</option>
+                </select>
+
+                <select title = "demo" name="date" id="options2">
+                    <option value="jan">January</option>
+                    <option value="feb">February</option>
+                    <option value="mar">March</option>
+                    <option value="april">April</option>
+                    <option value="may">May</option>
+                    <option value="jun">June</option>
+                    <option value="jul">July</option>
+                    <option value="aug">August</option>
+                    <option value="sept">September</option>
+                    <option value="oct">October</option>
+                    <option value="noc">November</option>
+                    <option value="dec">December</option>
+                </select>
+            </form>
+
+
+            <div class="chart" id="chart">
+                <canvas id="pie"></canvas>
+            </div>
+        </div>
+
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="../js/demo2.js"></script>
+</html>
