@@ -1,3 +1,12 @@
+-- phpMyAdmin SQL Dump
+-- version 4.8.5
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Nov 29, 2022 at 09:25 PM
+-- Server version: 10.1.39-MariaDB
+-- PHP Version: 7.3.5
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
 START TRANSACTION;
@@ -35,9 +44,9 @@ CREATE TABLE `admin_profile` (
 --
 
 INSERT INTO `admin_profile` (`id`, `full_name`, `email`, `mobile`, `address`, `password`, `status`, `created_at`) VALUES
-(10, 'Super Admin', 'superadmin@gmail.com', '1234567890', 'Noida', '0192023a7bbd73250516f069df18b500', 1, '2020-06-17 18:38:43.432266'),
-(11, 'Test admin', 'testadmin@gmail.com', '1234567890', 'New Delhi', '0192023a7bbd73250516f069df18b500', 1, '2020-06-17 18:39:14.874271'),
-(12, 'temp admin', 'tempadmin@gmail.com', '12', 'Noida', '0192023a7bbd73250516f069df18b500', 1, '2020-06-17 18:39:52.830541');
+(10, 'TRISTAN JORGE CUARTERO', 'trstnjorgen@gmail.com', '09511692537', 'Batangas City', 'fordacommute2022', 1, '2022-11-29 18:38:43.432266'),
+(11, 'MARC FRANCIS MARUNDAN', 'marcfrancismn@gmail.com', '09970671170', 'Batanags City', 'fordacommute2022', 1, '2022-11-29 18:39:14.874271'),
+(12, 'MARK ANGELE MALIGALIG', 'markangelom@gmail.com', '09384418426', 'Laguna', 'fordacommute2022', 1, '2022-11-29 18:39:52.830541');
 
 -- --------------------------------------------------------
 
@@ -132,8 +141,8 @@ CREATE TABLE `contact_details` (
 -- Dumping data for table `contact_details`
 --
 
-INSERT INTO `contact_details` (`id`, `email`, `mobile`, `address`, `google_map`, `facebook`, `google_plus`, `twitter`, `linkedin`, `youtube`, `instagram`) VALUES
-(1, 'youremailaddress@gmail.com', '1234567890', 'Noida, Uttar Pradesh, India', 'Enter You Google Map Code', '', '', '', '', '', '');
+INSERT INTO `contact_details` (`id`, `email`, `mobile`, `address`, `google_map`, `facebook`, `twitter`, `github`, `instagram`) VALUES
+(1, 'youremailaddress@gmail.com', '1234567890', 'Batangas City, Philippines', 'Enter Your Google Map Code', '', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -191,7 +200,7 @@ CREATE TABLE `home_content` (
 --
 
 INSERT INTO `home_content` (`id`, `content_section`, `first_title`, `second_title`, `description`) VALUES
-(2, 'About Downloader', 'sscczxc', 'adsaczxczxc', 'dsnadasnckc aksdjasdklj asdljdls asldjsdl '),
+(2, 'About FordaCommute', 'sscczxc', 'adsaczxczxc', 'dsnadasnckc aksdjasdklj asdljdls asldjsdl '),
 (3, 'How to Download', 'dsds', 'dsds', '					\r\ndsds');
 
 -- --------------------------------------------------------
@@ -247,7 +256,7 @@ CREATE TABLE `website_setting` (
 --
 
 INSERT INTO `website_setting` (`id`, `website_title`, `website_name`, `visible_website_name`, `website_logo`, `website_favicon`, `meta_keyword`, `meta_description`, `google_varification_code`, `google_analytics_code`) VALUES
-(1, 'dd', 'dd', 0, 'codingstatus-logo.jpg', 'codingstatus-icon.jpg', 'dd', 'dd', 'dd', 'dd');
+(1, 'dd', 'dd', 0, 'titlelogo.png', 'fordacommute logo.png', 'dd', 'dd', 'dd', 'dd');
 
 --
 -- Indexes for dumped tables
